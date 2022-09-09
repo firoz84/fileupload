@@ -1,0 +1,50 @@
+
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <a class="btn btn-success" href="/student"> add student</a>
+                <div class="card-body">
+                    <h2>all student </h2>
+                    <hr>
+
+                    <form action="/user" method="POST" class="form-data" enctype="multipart/form-data">
+                        <div class="my-3">
+                            <label for="">name</label>
+                            <input type="text" name="name" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <label for="">gmail</label>
+                            <input type="text" name="gmail" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <label for="">cell</label>
+                            <input type="text" name="cell" class="form-control">
+                        </div>
+                       
+                        <div class="my-3">
+                            <label for="">photo</label>
+                            <br>
+                            <img src="" alt="" class="preload-student">
+                            <br>
+                            <label for="image_upload">
+                                <i class="bi bi-images"></i>
+                            </label>
+                            <br>
+                            <input type="file" id="image_upload" multiple name="photo" >
+                        </div>
+                        <div class="my-3">
+                            <label for=""> upload Cv</label>
+                            <input type="file" name="cv">
+                        </div>
+                        <div class="my-3">
+                           
+                            <input type="submit"  value="submit" class=" btn btn-primary w-100">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

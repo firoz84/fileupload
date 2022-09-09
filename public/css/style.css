@@ -1,0 +1,19 @@
+
+.form-data label i{
+    font-size:50px;
+    color:blueviolet;
+    cursor: pointer;
+}
+
+
+
+.preload-student{
+    max-width: 100%;
+}
+.add-student img{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
